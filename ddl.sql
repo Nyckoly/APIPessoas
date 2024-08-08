@@ -2,7 +2,7 @@ CREATE DATABASE apipessoas;
 USE apipessoas;
 CREATE TABLE pessoa(
 idpessoa INT NOT NULL AUTO_INCREMENT PRIMARY KEY ,
-endereço VARCHAR(500) NOT NULL
+endereco VARCHAR(500) NOT NULL
 );
 
 CREATE TABLE telefone(
